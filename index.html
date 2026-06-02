@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cognifyz Internship</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Welcome to Cognifyz Technologies</h1>
+
+        <h2>Front-End Development Internship</h2>
+
+        <p>
+            This website is created for Cognifyz Front-End Development Internship Tasks.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+            alt="Coding Image">
+
+        <br><br>
+
+        <button onclick="changeColor()">
+            Change Background
+        </button>
+
+        <h2>Users Data From API</h2>
+
+        <div id="userdata"></div>
+
+        <h2>Contact Form</h2>
+
+        <form onsubmit="return validateForm()">
+
+            <input type="text" id="name" placeholder="Enter Your Name">
+
+            <br><br>
+
+            <input type="email" id="email" placeholder="Enter Your Email">
+
+            <br><br>
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
